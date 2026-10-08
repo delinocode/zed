@@ -45,9 +45,6 @@
     "provider": "ollama",
   },
   "agent": {
-    "threads_sidebar": {
-      "position": "right"
-    },
     "sandbox_permissions": {
       "allow_unsandboxed": true,
       "write_paths": [
@@ -88,6 +85,7 @@
       },
     },
     "dock": "right",
+    "sidebar_side": "right",
     "default_model": {
       "provider": "mlx_serve_bookpro",
       "model": "labhraighlep/Qwen3.8-Flash-Next-MLX-Serve-4bit",
