@@ -1,4 +1,5 @@
 {
+  "format_on_save": "on",
   "ssh_connections": [
     {
       "host": "taichi",
@@ -12,6 +13,26 @@
         },
         {
           "paths": [
+            "/home/delai/code/python/project_1"
+          ]
+        },
+        {
+          "paths": [
+            "/home/delai/code/python/pytorch_learn"
+          ]
+        },
+        {
+          "paths": [
+            "/home/delai/code/python/pytorch_learn/project_1"
+          ]
+        },
+        {
+          "paths": [
+            "/home/delai/code/python/torch"
+          ]
+        },
+        {
+          "paths": [
             "/home/delai/dotfiles"
           ]
         }
@@ -21,7 +42,18 @@
       "host": "taichi",
       "username": "delai",
       "args": [],
-      "projects": []
+      "projects": [
+        {
+          "paths": [
+            "/home/delai/code/./"
+          ]
+        },
+        {
+          "paths": [
+            "/home/delai/code/python/Ml-engineering-book"
+          ]
+        }
+      ]
     }
   ],
   "autosave": "on_focus_change",
@@ -50,7 +82,7 @@
         "codecompanion.olimorris.dev"
       ]
     },
-    "default_profile": "ask",
+    "default_profile": "write",
     "tool_permissions": {
       "tools": {
         "delete_path": {
@@ -109,8 +141,8 @@
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
-    "mode": "dark",
-    "light": "Catppuccin Latte - No Italics",
+    "mode": "light",
+    "light": "Panda Light",
     "dark": "Catppuccin Frappé"
   },
   "language_models": {
